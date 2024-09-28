@@ -20,7 +20,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v2
         with:
-          github_token: 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
+          github_token: ${{ secrets.PAT_TOKEN }}
 
       # Коммитим и пушим результат в ветку output
       - name: Commit and Push Snake Animation
